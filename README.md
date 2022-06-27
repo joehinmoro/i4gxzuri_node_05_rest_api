@@ -7,11 +7,17 @@ Read the Documentation:
     POST: "/"
 
     Format:
+
     {
+
     title: String,
+
     time: String,
+
     price: Number,
+
     date: String,
+
     }
 
 2. Get all Flight (INDEX)
@@ -27,11 +33,17 @@ Read the Documentation:
     PATCH: "/:id"
 
     Format:
+
     {
+
     title: String,
+
     time: String,
+
     price: Number,
+
     date: String,
+
     }
 
     Note: Falsy values will be ignored
