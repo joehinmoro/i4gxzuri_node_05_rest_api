@@ -3,7 +3,8 @@
 Read the Documentation:
 
 1. Add/Book Flight (CREATE)
-   POST: "/"
+
+    POST: "/"
 
     Format:
     {
@@ -14,13 +15,16 @@ Read the Documentation:
     }
 
 2. Get all Flight (INDEX)
-   GET: "/"
+
+    GET: "/"
 
 3. Get a single Flight (SHOW)
-   GET: "/:id"
+
+    GET: "/:id"
 
 4. Update/Edit Flight (UPDATE)
-   PATCH: "/:id"
+
+    PATCH: "/:id"
 
     Format:
     {
@@ -33,6 +37,7 @@ Read the Documentation:
     Note: Falsy values will be ignored
 
 5. Delete Flight (DELETE)
-   DELETE: "/:id"
+
+    DELETE: "/:id"
 
 Anything else results to a bad request (400)
